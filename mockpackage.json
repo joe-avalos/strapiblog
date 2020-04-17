@@ -1,0 +1,16 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "server": "cd server && npm run develop",
+    "develop": "cd frontend && gatsby clean && gatsby develop",
+    "start": "npm run server & npm run develop",
+    "clean": "cd frontend && gatsby clean",
+    "setup": "cd frontend && gatsby clean && gatsby build",
+    "build": "npm run server && npm run setup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
